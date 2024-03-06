@@ -7,7 +7,7 @@ public class Solution
 		int maxLength=0;
 		for (int i = 0; i < input.length(); i++) {
 			Set<Character>charSet=new HashSet<>();
-			int j=i;
+			int j= i;
 			while(j<input.length()&&!charSet.contains(input.charAt(j))){
 				charSet.add(input.charAt(j));
 				j++;
