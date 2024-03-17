@@ -8,7 +8,6 @@ public class Solution {
             arr[a]=arr[b];
             arr[b]=temp;
         }
-
     static int[] rotateArray(int[] arr, int n) {
         // Write your code here.
         
