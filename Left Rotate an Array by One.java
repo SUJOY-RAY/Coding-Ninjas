@@ -1,7 +1,6 @@
 import java.util.* ;
 import java.io.*; 
 
-
 public class Solution {
     private static void swap(int arr[],int a, int b){
             int temp;
